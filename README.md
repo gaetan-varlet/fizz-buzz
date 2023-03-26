@@ -8,11 +8,12 @@
 
 Exemple : 12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz
 
-
-## Test-First vs TDD
+## Test-First vs TDD
 
 - Test-First : test validant notre programme
+    - par exemple, un unique test avec la chaine généré par les nombres allant de 1 à 100
 - Test-Driven Development : guide le développeur avec un feedback permet, en avançant pas à pas (baby-steps)
+    - par exemple, un premier test avec un unique nombre 1 en entrée
 
 les lois du TDD :
 - interdiction d'écrire du nouveau code sauf pour faire passer un test qui échoue
@@ -34,3 +35,12 @@ Inconvénients :
 - courbe d'apprentissage importante
 - nécessite une discipline sansa faille
 - pratique mal interprétée qui peut mener à des tests fragiles et un surcoût
+
+## Le BDD
+
+Le Behaviour-Driven Development, ou programmation pilotée par le comportement
+- favorise le dialogue avec le métier, via des exemples, pour éviter les quiproquos
+- utilisation d'un langage commun (Gherkin) pour écrire ces exemples
+- utilisation de Cucumber (ou autre) pour lire ses exemples
+
+dépôt Michael : https://github.com/mica16/BDD-TDD-Demo/tree/part3
