@@ -36,11 +36,14 @@ Inconvénients :
 - nécessite une discipline sansa faille
 - pratique mal interprétée qui peut mener à des tests fragiles et un surcoût
 
-## Le BDD
+## Le BDD / L'ATDD
 
 Le Behaviour-Driven Development, ou programmation pilotée par le comportement
 - favorise le dialogue avec le métier, via des exemples, pour éviter les quiproquos
-- utilisation d'un langage commun (Gherkin) pour écrire ces exemples
+
+L'Acceptance Test–Driven Development (développement piloté par les tests d'acceptation)
+- mise en place des exemples définis dans le BDD, sous forme de tests
+- utilisation d'un langage commun (Gherkin) pour écrire ces exemples sous forme de scénarios
 - utilisation de Cucumber (ou autre) pour lire ses exemples
 
 dépôt Michael : https://github.com/mica16/BDD-TDD-Demo/tree/part3
